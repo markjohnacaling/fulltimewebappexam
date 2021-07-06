@@ -1,0 +1,1 @@
+SELECT *  FROM employees where department == "IT" AND date_hired == 2018
