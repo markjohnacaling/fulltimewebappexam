@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +11,7 @@ $b =1;
 $c = 0;
 $result = 0;
 
-for ($a = 0; $a < 10; $a++) {
+for ($a = 0; $a < 8; $a++) {
 	if($a < 2)
 	{
 echo $result . "<br>";
