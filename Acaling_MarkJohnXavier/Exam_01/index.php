@@ -1,6 +1,5 @@
 <?php
-// PHP code to check for Palindrome string in PHP
-// Using strrev()
+
 function Palindrome($string){ 
     if (strrev($string) == $string){ 
         return 1; 
@@ -11,7 +10,7 @@ function Palindrome($string){
 } 
  
 // Driver Code
-$original = "DAD";
+$original = "madam";
 if(Palindrome($original)){ 
     echo "Palindrome"; 
 }
