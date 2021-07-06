@@ -1,1 +1,0 @@
-SELECT *  FROM employees, departments, salary WHERE max(salary) 
