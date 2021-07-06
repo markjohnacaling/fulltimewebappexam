@@ -12,6 +12,7 @@ sort($names);
  	$length = count($names);
 for($x = 0; $x < $length; $x++ )
 {
+$names[0] = '';
 echo $names[$x] . "<br>";
 }
 
