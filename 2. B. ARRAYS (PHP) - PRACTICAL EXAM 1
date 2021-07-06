@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+
+<?php
+$names = array(9863, 7127, 2020, 80,131, 55, 100);
+sort($names);
+	$length = count($names);
+ for($x = 0; $x < $length; $x++)
+ {
+if($names[$x] % 2 != 0){
+$names[$x] = round($names[$x], 2) ;
+ }
+ echo $names[$x] . "<br>";
+
+}
+
+
+?>
+</body>
+</html>
