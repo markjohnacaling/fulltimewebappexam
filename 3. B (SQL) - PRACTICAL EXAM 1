@@ -1,1 +1,0 @@
-SELECT *  FROM employees where date_hired == 2017 or date_hired  == 2018
